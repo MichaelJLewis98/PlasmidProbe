@@ -1,0 +1,31 @@
+# Local sequencing data, references, annotations, and analysis outputs
+/data/
+/results/
+
+# Genomics files accidentally placed outside the ignored data directories
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.fna
+*.gb
+*.gbk
+*.genbank
+*.sam
+*.bam
+*.csv
+index*.txt
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local machine and editor configuration
+.DS_Store
+.vscode/
+.env
